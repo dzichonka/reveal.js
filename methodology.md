@@ -1,40 +1,43 @@
 # Software Development Methodologies
 
 
-- Agile <!-- .element: class="fragment" data-fragment-index="1" -->
-- Scrum <!-- .element: class="fragment" data-fragment-index="2" -->
-- Kanban <!-- .element: class="fragment" data-fragment-index="2" -->
-- Waterfall
-- Planning Poker <!-- .element: class="fragment" data-fragment-index="3" -->
-- Story points <!-- .element: class="fragment" data-fragment-index="3" -->
-- DevOps <!-- .element: class="fragment" data-fragment-index="3" -->
-- Three-Point Estimation <!-- .element: class="fragment" data-fragment-index="4" -->
-- Expert Judgment <!-- .element: class="fragment" data-fragment-index="4" -->
-  ... <!-- .element: class="fragment" data-fragment-index="5" -->
+##### 📚 Topics Covered
+
+- 🌀 Agile <!-- .element: class="fragment" data-fragment-index="1" -->
+- 🧭 Scrum <!-- .element: class="fragment" data-fragment-index="2" -->
+- 📋 Kanban <!-- .element: class="fragment" data-fragment-index="2" -->
+- 🧱 Waterfall
+- 🃏 Planning Poker <!-- .element: class="fragment" data-fragment-index="3" -->
+- 📏 Story Points <!-- .element: class="fragment" data-fragment-index="3" -->
+- ⚙️ DevOps <!-- .element: class="fragment" data-fragment-index="3" -->
+- 🔢 Three-Point Estimation <!-- .element: class="fragment" data-fragment-index="4" -->
+- 🧠 Expert Judgment <!-- .element: class="fragment" data-fragment-index="4" -->
+- ✨ ... <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 
-## Methodology
 
-= A process or algorithm that the whole team follows
+## 🤔 Methodology?
+
+It’s the **answer to the question**:
+“How exactly are we going to get this done — together?”
 
 
 
-### Traditional Models
+## 🧱 Traditional Models
 
-**(Waterfall)**
+### 💧 Waterfall
 
-- All work is done step by step, strictly according to the plan.
-- No intermediate results until the very end.
+- 📋 Work is done **step by step**, strictly following the plan
+- 🚫 No intermediate results until the **very end**
 
 <small>
 
-Best suited when:
+✅ **Best suited when:**
 
-- Requirements are clear and fixed.
-- Adherence to deadlines, documentation, and standards is important.
-
-Example: construction of a buildingя
+- 🔐 Requirements are **clear and fixed**
+- 📅 Deadlines, 📑 documentation, and 🏛 standards must be strictly followed
+- 🏗 Like building a house: foundation first, then walls, then roof
 
 </small>
 
@@ -158,6 +161,23 @@ Daily standups, retrospectives, sprint planning.
 - Retrospective (what to improve)
 
 
+## ⭐ Scrum Values
+
+<div style="font-size: 0.6em; line-height: 1.6em;">
+
+Scrum is not only about sprints and standups — it’s also built on **five core values** that guide the team’s behavior and collaboration.
+
+| 💡 **Value**     | 🧭 **Meaning**                                                                 |
+|------------------|---------------------------------------------------------------------------------|
+| **Commitment**   | The team commits to achieving goals and supporting each other                   |
+| **Focus**        | Everyone focuses on the work of the Sprint and the goals of the Scrum Team      |
+| **Openness**     | The team is open about work, challenges, and progress                           |
+| **Respect**      | Team members respect each other as capable and independent professionals        |
+| **Courage**      | Team members have the courage to do the right thing and face tough problems     |
+
+</div>
+
+
 
 ## Kanban
 
@@ -185,6 +205,27 @@ A task management method that helps visualize the process, identify bottlenecks,
 - Limit WIP — fewer tasks = more focus and quality.
 
 - Measure and improve — track cycle time and optimize the process.
+
+
+## 🧮 What are Story Points?
+
+**Story Points** are a way to measure the **relative effort** needed to complete a task.
+They are not hours — instead, they reflect:
+
+- ⏳ **Time**
+- 🧠 **Complexity**
+- 🎲 **Uncertainty or risk**
+
+
+### 📌 Why use Story Points?
+
+- 🔢 Help teams **compare tasks** (e.g., Task A is twice as hard as Task B)
+- 🚀 Support **prioritization** and planning
+- 📊 Allow tracking of **throughput** — how many points are completed over time
+
+Story Points are often chosen from the **Fibonacci sequence**:
+`1, 2, 3, 5, 8, 13, 21...`
+Each number reflects growing uncertainty with larger tasks.
 
 
 
@@ -239,10 +280,10 @@ These are methods for estimating time, resources, and costs required for a proje
 
 ### Planning Poker
 
-A collaborative and anonymous method for estimating task complexity or size (Story Points) using numbered cards (usually from the Fibonacci sequence: 1, 2, 3, 5, 8, 13, 21…).
+A collaborative and anonymous method for estimating task complexity or size (Story Points) using numbered cards.
 The goal is to reach a shared understanding and agreement within the team.
 
-<img src="./assets/img/Planning-Poker-2.png" alt="Poker Planning" style="width: 30%; padding: 1rem;" />
+<img src="./assets/img/Planning-Poker-2.png" alt="Poker Planning" style="width: 40%; padding: 1rem;" />
 
 
 <img src="./assets/img/planning-poker.png" alt="Poker Planning" style="width: 80%; padding: 1rem;" />
@@ -306,6 +347,6 @@ This helps monitor workload, focus on priorities, and run effective retrospectiv
 
 [@dzichonka](https://github.com/dzichonka)
 
-<p style="font-size: 0.9em; color: #888;">Was done with <strong>reveal.js</strong> and Markdown</p>
+<p style="font-size: 0.9em; color: #888;">Done with reveal.js, Markdown and <strong>love</strong></p>
 
 </div>
