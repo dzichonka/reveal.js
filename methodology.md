@@ -19,7 +19,7 @@ Today I want to talk about software development methodologies.
 - ✨ ... <!-- .element: class="fragment" data-fragment-index="5" -->
 
 Note:
-We’ll go through different approaches like Agile, Scrum, Kanban, and Waterfall,
+We’ll go through different approaches like Waterfall, Agile, Scrum, Kanban,
 plus some helpful techniques like Planning Poker, Story Points, and even DevOps.
 
 Let’s go! 🚀
@@ -79,25 +79,22 @@ Note:
 Now let’s look at the flexible approach.
 
 Imagine you are doing home renovation. 🛠️🏡
-You don’t wait 6 months to see if the whole apartment looks good.
-Instead, you renovate one room at a time:
-
+You wouldn't like to wait for 6 months to see if the whole apartment looks good.
+Instead, you would renovate one room at a time:
 paint the walls 🎨,
-
 fix the lights 💡,
-
 choose the furniture 🛋️.
 
 You finish a small part, check it, show it to your family —
 and if needed, make changes right away!
 
-Agile works the same way:
+Flexible Mode works the same way:
 
 In each small cycle, the team goes through all stages — analysis, design, coding, testing, delivery.
 
 Each cycle gives a working result and a chance to adjust.
 
-This way, you avoid big disasters and keep moving forward fast and safely. 🚀
+This way, you avoid disasters and keep moving forward fast and safely. 🚀
 
 
 ![classic vs flexible metodology](./assets/img/agile-vs-waterfall.png)
@@ -109,12 +106,9 @@ we go through each stage only once:
 analysis, design, implementation, testing, and delivery.
 Step by step — no going back. 🛤️
 
-On the right — in the Agile approach,
+On the right — in the Flexible (Agile) approach,
 we go through all these stages again and again in small cycles. 🔁
 In every iteration, we analyze, design, build, test, and deliver a working piece.
-
-It’s like making a cake layer by layer 🎂 instead of baking the whole wedding cake at once!
-You can taste it earlier — and fix it if it’s too salty 😄
 
 
 ![classic vs flexible metodology](./assets/img/w-a.png)
@@ -123,11 +117,10 @@ Note: In this picture, you can clearly see the difference.
 
 On the left — the traditional model:
 Everything is planned from the start. You only see the final product at the very end.
-It's like ordering a house and seeing it only after 6 months — surprise! 🏠😅
 
 On the right — the flexible model (Agile):
 You build and improve step by step. You can see progress early, give feedback, and make changes.
-Like doing home renovation room by room — you can fix things faster and avoid big disasters! 🛠️
+
 
 
 ## Waterfall
@@ -144,11 +137,8 @@ Like doing home renovation room by room — you can fix things faster and avoid 
 Note: The most famous traditional model is Waterfall.
 
 It’s like building a house 🏠:
-
 First the foundation,
-
 then the walls,
-
 then the roof.
 Step by step, in order.
 
@@ -188,19 +178,12 @@ In 2001, a group of 17 software developers met in a ski resort in Utah, USA. �
 They were tired of slow and heavy development processes.
 So they sat together and asked:
 👉 "How can we build software better and faster?"
-
 That’s how the Agile Manifesto was born — a new way of thinking about projects.
-
 It says that we value:
-
 People and interactions more than just processes and tools 🤝
-
 Working software more than perfect documentation 🖥️
-
 Customer collaboration more than contract negotiation 🤝📝
-
 Responding to change more than following a strict plan 🔄
-
 Of course, the things on the right are still important —
 but the things on the left are even more important to create great products!
 
@@ -238,10 +221,8 @@ and adapting quickly when things change.
 <img src="./assets/img/meme-jira.webp" alt="Agail" style="width: 30%; padding: 1rem;" />
 
 Note: Another funny meme says:
-
 "We are doing Agile...
 because we installed Jira!" 😄
-
 But real Agile is not about tools.
 It’s about changing how people think and work together —
 not just clicking tasks in a new app!
@@ -273,20 +254,22 @@ Now let’s look at Scrum — one of the most popular Agile frameworks.
 Note:
 You work in short sprints, usually 2 weeks.
 You have 3 roles:
-
 Product Owner: decides what should be built
-
 Scrum Master: helps the team stay focused and removes blockers
-
 Team: self-organizes and does the work
 
 There are also useful tools:
-
 Product Backlog
-
 Sprint Backlog
-
 And at the end — an Increment: a working piece of the product
+
+Here’s what a Scrum cycle looks like:
+We plan the sprint
+Have daily standups
+Show results at the end
+And then reflect: what went well, what can improve?
+
+Simple, but powerful.
 
 
 ### Roles:
@@ -317,18 +300,6 @@ And at the end — an Increment: a working piece of the product
 
 - Retrospective (what to improve)
 
-Note: Here’s what a Scrum cycle looks like:
-
-We plan the sprint
-
-Have daily standups
-
-Show results at the end
-
-And then reflect: what went well, what can improve?
-
-Simple, but powerful.
-
 
 ## ⭐ Scrum Values
 
@@ -349,15 +320,10 @@ Scrum is not only about sprints and standups — it’s also built on **five cor
 Note: Scrum isn’t only about meetings — it’s about values:
 
 Commitment: we do what we promised
-
 Focus: no distractions
-
 Openness: we’re honest about progress
-
 Respect: we trust each other
-
 Courage: to try, to fail, and to improve
-
 These values help the team stay strong and connected.
 
 
@@ -370,6 +336,7 @@ Note: Kanban is another flexible method — more visual and continuous.
 
 
 <img src="./assets/img/kanban.jpeg" alt="Kanban" style="width: 80%; padding: 1rem;" />
+
 Note:
 Tasks move through stages:
 📋 To Do → 🔄 In Progress → ✅ Done
@@ -377,8 +344,6 @@ Tasks move through stages:
 Everything is on a board — physical or digital.
 The key idea is: don’t start too much at once.
 That way, you finish faster and better.
-
-It’s great for support teams or any workflow that’s always changing.al.
 
 
 ## 🧩 Kanban Principles
@@ -392,7 +357,7 @@ Note: When starting with Kanban, you don’t need to throw everything away and r
 🏁 First, start with what you have.
 Look at your current workflow — and just visualize it on a board.
 
-🚦 Then, limit WIP — how many tasks are "in progress" at the same time.
+🚦 Then, limit work in progress — how many tasks are "in progress" at the same time.
 Less is more: fewer tasks mean more attention, faster results, and better quality.
 
 📈 Finally, measure and improve.
@@ -410,7 +375,7 @@ They are not hours — instead, they reflect:
 - 🧠 **Complexity**
 - 🎲 **Uncertainty or risk**
 
-Note: Let’s talk about a key Agile concept: Story Points.
+Note: Let’s talk about a key Kanban concept: Story Points.
 
 Story Points don’t measure time — they measure effort.
 
@@ -497,17 +462,12 @@ These are methods for estimating time, resources, and costs required for a proje
 </table>
 
 Note: Let’s now look at how teams estimate effort.
-
 We use different techniques:
 
 🧠 Expert Judgment — ask someone experienced
-
 📊 Analogous Estimating — use past project data
-
 🔢 Parametric Estimating — use a formula: time × number of items
-
 🎯 Three-Point Estimation — average of best case, normal case, and worst case
-
 🃏 Planning Poker — we’ll talk about that next!
 
 
@@ -527,8 +487,6 @@ Note: Each person picks a card with a number (story points)
 We reveal all cards at once — and talk about differences.
 
 It’s anonymous and democratic — even quiet team members can share their views.
-
-And yes, it’s way more fun than Excel! 😄
 
 
 
