@@ -9,7 +9,7 @@ Note:
 
 
 
-<img src="./assets/sorcerers-apprentices/1.png" alt="screenshot" style="width: 90%; padding: 1rem;" />
+<img src="./assets/sorcerers-apprentices/1.png" alt="screenshot" />
 
 
 тут может описание первого слайда
@@ -18,8 +18,11 @@ Note:
 здесь могут быть наши пометки
 
 
+<img src="./assets/sorcerers-apprentices/zoom/1.png" alt="screenshot" />
 
-<img src="./assets/sorcerers-apprentices/2.png" alt="screenshot" style="width: 90%; padding: 1rem;" />
+
+
+<img src="./assets/sorcerers-apprentices/2.png" alt="screenshot" style="width: 140vw;" />
 
 
 
