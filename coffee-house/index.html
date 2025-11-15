@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The Coffee House Presentation</title>
+
+    <meta
+      name="description"
+      content="The Coffee House project presentation"
+    />
+    <meta name="author" content="Anna Vasilevich" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../dist/reset.css" />
+    <link rel="stylesheet" href="../dist/reveal.css" />
+    <link rel="stylesheet" href="../dist/theme/moon.css" id="theme" />
+
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-markdown="coffee-house.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+
+
+    <script src="../dist/reveal.js"></script>
+    <script src="../plugin/markdown/markdown.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealNotes,
+
+        ],
+      });
+    </script>
+  </body>
+</html>

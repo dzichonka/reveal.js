@@ -1,7 +1,9 @@
 [demo](https://dzichonka.github.io/reveal.js/demo)
 
-[sorcerers-apprentices](https://dzichonka.github.io/reveal.js/sorcerers-apprentices)
+[sorcerers-apprentices](https://dzichonka.github.io/reveal.js/sorcerers-apprentices/)
 
-[methodology-en](https://dzichonka.github.io/reveal.js/methodology)
+[methodology-en](https://dzichonka.github.io/reveal.js/methodology/)
 
-[methodology-ru](https://dzichonka.github.io/reveal.js/methodology-ru)
+[methodology-ru](https://dzichonka.github.io/reveal.js/methodology-ru/)
+
+[cofee-house](https://dzichonka.github.io/reveal.js/cofee-house/)
