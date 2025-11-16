@@ -1,4 +1,4 @@
-<img src="./assets/icons/logo.svg" alt="screenshot" style="width: 10%; padding: 1rem;"/>
+<img src="./assets/icons/logo.svg" alt="screenshot" style="width: 10%;"/>
 
 # Coffee House: Creative Extension
 
@@ -8,7 +8,7 @@ Note:
 type S
 
 
-<img src="./assets/images/main.png" alt="screenshot"/>
+<img src="./assets/images/main.png" alt="screenshot"  style="width:40%; padding: 1rem;"/>
 
 
 

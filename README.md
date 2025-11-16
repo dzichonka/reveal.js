@@ -6,4 +6,4 @@
 
 [methodology-ru](https://dzichonka.github.io/reveal.js/methodology-ru/)
 
-[cofee-house](https://dzichonka.github.io/reveal.js/cofee-house/)
+[coffee-house](https://dzichonka.github.io/reveal.js/coffee-house/)
