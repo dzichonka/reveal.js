@@ -19,9 +19,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="assets/icons/logo.svg" />
+
     <link rel="stylesheet" href="../dist/reset.css" />
     <link rel="stylesheet" href="../dist/reveal.css" />
-    <link rel="stylesheet" href="../dist/theme/moon.css" id="theme" />
+    <link rel="stylesheet" href="../dist/theme/beige.css" id="theme" />
 
     <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
   </head>
@@ -39,20 +41,26 @@
     <script src="../dist/reveal.js"></script>
     <script src="../plugin/markdown/markdown.js"></script>
     <script src="../plugin/highlight/highlight.js"></script>
+    <script src="../plugin/search/search.js"></script>
+    <script src="../plugin/zoom/zoom.js"></script>
     <script src="../plugin/notes/notes.js"></script>
+
 
     <script>
       Reveal.initialize({
+        transition: 'convex',
+        autoAnimate: true,
         controls: true,
         progress: true,
         history: true,
         center: true,
 
         plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
           RevealMarkdown,
           RevealHighlight,
-          RevealNotes,
-
         ],
       });
     </script>
